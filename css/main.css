@@ -97,19 +97,86 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start utility classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+.flex {
+    display: flex;
+}
+.margin_2em {
+    margin: 2em;
+}
+.center {
+    text-align: center;
+}
+.margin_auto {
+    margin: auto;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End utility classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+}
+.tablette {
+    display: none;
+}
+.desktop {
+    display: none;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+.icon_header {
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (min-width: 500px) {
+    .tablette {
+        display: flex;
+    }
+    .icon_header {
+        background-color: #b3d4fc;
+    }
+    .search {
+        align-items: center;
+        background-color: royalblue;
+    }
+    header nav a {
+        text-decoration: none;
+        color: black;
+    }
+    header section {
+        background-image: url("http://www.patisseriehelterle.fr/medias/images/slider/slider-3.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+    }
+    .p_header {
+        margin-top: 50vh;
+    }
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+@media screen and (min-width: 500px) {
+    .tablette {
+        display: flex;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .tablette {
+        display: flex;
+    }
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+@media screen and (min-width: 500px) {
+    
+}
+@media screen and (min-width: 1200px) {
+    .desktop {
+        display: flex;
+    }
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* ==========================================================================
