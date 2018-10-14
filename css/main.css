@@ -195,14 +195,14 @@ footer, header {
         flex-wrap: nowrap;
         width: 30%;
     }
+    #callToAction {
+        justify-content: space-between;
+    }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .social_links {
     justify-content: space-around;
-}
-@media screen and (min-width: 500px) {
-    
 }
 @media screen and (min-width: 1200px) {
     .desktop {

@@ -24,7 +24,7 @@
   <!--The section containing logo, login and search-->
     <div class="flex icon_header">
       <div class="margin_2em">
-        <i><img src="img/icons8_confiserie_50.png" alt="Une image de cupcake"></i>
+        <i><img src="img/icons8_confiserie_50.png" alt="Une image de cupcake"><img src="img/icons8_confiserie_50.png" alt="Une image de cupcake"><img src="img/icons8_confiserie_50.png" alt="Une image de cupcake"></i>
       </div class="margin_2em">
       <div class="flex search margin_2em">
         <i><img src="img/icons8_utilisateur_neutre_50.png" alt="Une icone de login"></i>
@@ -44,7 +44,7 @@
   <!--Section contaigning presentation user-->
     <section class="center">
         <h1>Les magnardises d'Emannuel</h1>
-        <p>La pâtissetie? Une affaire de famille de père en fils!</p>
+        <p>~~~~~ La pâtissetie? Une affaire de famille de père en fils! ~~~~~</p>
       <!--Background image here-->
     </section>
   </header>

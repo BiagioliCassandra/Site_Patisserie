@@ -2,6 +2,7 @@
       Start footer
 ~~~~~~~~~~~~~~~~~~~~~-->
 <footer>
+<!--The 9 links of the footer-->
     <div class="desktop favorite_links margin_auto">
       <a class="puce border margin_1em" href="https://www.iletaitunefoislapatisserie.com/">Lien</a>
       <a class="puce border margin_1em" href="https://cook-shop.fr/fr/">Lien</a>
@@ -17,7 +18,8 @@
       <a class="puce border margin_1em" href="http://christophemichalak.com/">Lien</a>
       <a class="puce border margin_1em" href="https://www.planete-gateau.com/">Lien</a>
     </div>
-    <p class="center margin_2em">Crédit</p>
+<!--The credit and the 4 social links: twitter, linkedin, github and stack-->
+    <p class="center margin_2em">Crédits</p>
     <div class="flex social_links">
       <a href="https://twitter.com/"><img src="img/icons8_twitter.png" alt="Le logo de twitter"></a>
       <a href="https://fr.linkedin.com/"><img src="img/icons8_linkedin.png" alt="Le logo de Linkedin"></a>
