@@ -2,19 +2,23 @@
       Start footer
 ~~~~~~~~~~~~~~~~~~~~~-->
 <footer>
-    <div class="desktop">
-      <a href="https://www.iletaitunefoislapatisserie.com/">Il était une fois</a>
-      <a href="https://cook-shop.fr/fr/">Le cook-shop</a>
-      <a href="http://www.lenotre.com/e-boutique/carte-sucree/patisseries.html">Lenotre</a>
-      <a href="http://www.gourmand-croquant.com/">Gourmand-croquand</a>
-      <a href="http://chezbogato.fr/">Chezbogato</a>
-      <a href="http://piroulie.canalblog.com/">Piroulie</a>
-      <a href="https://arnaudlarher.com/">Arnaudlarher</a>
-      <a href="http://christophemichalak.com/">Christophemichalak</a>
-      <a href="https://www.planete-gateau.com/">Planete-gateau</a>
+    <div class="desktop favorite_links margin_auto">
+      <a class="puce border margin_1em" href="https://www.iletaitunefoislapatisserie.com/">Lien</a>
+      <a class="puce border margin_1em" href="https://cook-shop.fr/fr/">Lien</a>
+      <a class="puce border margin_1em" href="http://www.lenotre.com/e-boutique/carte-sucree/patisseries.html">Lien</a>
     </div>
-    <p>Crédit</p>
-    <div>
+    <div class="desktop favorite_links margin_auto">
+      <a class="puce border margin_1em" href="http://www.gourmand-croquant.com/">Lien</a>
+      <a class="puce border margin_1em" href="http://chezbogato.fr/">Lien</a>
+      <a class="puce border margin_1em" href="http://piroulie.canalblog.com/">Lien</a>
+    </div>
+    <div class="desktop favorite_links margin_auto">
+      <a class="puce border margin_1em" href="https://arnaudlarher.com/">Lien</a>
+      <a class="puce border margin_1em" href="http://christophemichalak.com/">Lien</a>
+      <a class="puce border margin_1em" href="https://www.planete-gateau.com/">Lien</a>
+    </div>
+    <p class="center margin_2em">Crédit</p>
+    <div class="flex social_links">
       <a href="https://twitter.com/"><img src="img/icons8_twitter.png" alt="Le logo de twitter"></a>
       <a href="https://fr.linkedin.com/"><img src="img/icons8_linkedin.png" alt="Le logo de Linkedin"></a>
       <a href="https://github.com/BiagioliCassandra/Patisserie/tree/master"><img src="img/icons8_github.png" alt="Le logo de GitHub"></a>

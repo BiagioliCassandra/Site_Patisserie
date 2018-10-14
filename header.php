@@ -35,16 +35,16 @@
       </div>
     </div>
   <!--Nav containing the link for the sections of the page-->
-    <nav class="desktop margin_2em tablette">
-      <button><a class="margin_auto" href="#callToAction">Vos avis</a></button>
-      <button><a class="margin_auto" href="#presentation">Ma présentation</a></button>
-      <button><a class="margin_auto" href="#news">Les dernières nouveautés</a></button>
-      <button><a class="margin_auto" href="#recipes">Toutes les recettes</a></button>
+    <nav class="desktop center tablette">
+      <a class="puce margin_1em border" href="#callToAction">Vos avis</a>
+      <a class="puce margin_1em border" href="#presentation">Ma présentation</a>
+      <a class="puce margin_1em border" href="#news">Les dernières nouveautés</a>
+      <a class="puce margin_1em border" href="page_recipes.php">Toutes les recettes</a>
     </nav>
   <!--Section contaigning presentation user-->
-    <section class="center margin_2em">
+    <section class="center">
         <h1>Les magnardises d'Emannuel</h1>
-        <p class="p_header">Bienvenue sur mon site de pâtisserie, je présenterais ici toutes mes recettes et mes dernières créations.</p>
+        <p>La pâtissetie? Une affaire de famille de père en fils!</p>
       <!--Background image here-->
     </section>
   </header>

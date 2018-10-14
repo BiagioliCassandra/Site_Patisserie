@@ -103,11 +103,17 @@ textarea {
 .margin_2em {
     margin: 2em;
 }
+.margin_1em {
+    margin: 1em;
+}
 .center {
     text-align: center;
 }
 .margin_auto {
     margin: auto;
+}
+.width_80 {
+    width: 80%;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End utility classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -117,11 +123,24 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', cursive;
 }
+footer, header {
+    background-color: rgb(196, 184, 184);
+}
 .tablette {
     display: none;
 }
 .desktop {
     display: none;
+}
+.puce {
+    text-decoration: none;
+    color: black;
+}
+.border {
+    border: 1px black solid;
+    padding: 0.5em;
+    background-color: rgb(49, 48, 48);
+    color: white;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -130,51 +149,68 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 @media screen and (min-width: 500px) {
+    header {
+        width: 100%;
+    }
     .tablette {
         display: flex;
     }
-    .icon_header {
-        background-color: #b3d4fc;
-    }
     .search {
         align-items: center;
-        background-color: royalblue;
-    }
-    header nav a {
-        text-decoration: none;
-        color: black;
     }
     header section {
-        background-image: url("http://www.patisseriehelterle.fr/medias/images/slider/slider-3.jpg");
+        background-image: url("https://cdn3.tissus-price.com/73290-large_default/coton-uni-bleu-ciel.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 70vh;
+        height: 30vh;
     }
-    .p_header {
-        margin-top: 50vh;
+    header section h1 {
+        margin-bottom: 2em;
     }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.article_news {
+    margin-bottom: 1em;
+}
+.link_article {
+    text-align: end;
+}
 @media screen and (min-width: 500px) {
-    .tablette {
+    .tabletteOnly {
         display: flex;
+        flex-wrap: wrap;
+    }
+    .article_news {
+        width: 45%;
+        margin-top: 1em;
     }
 }
 @media screen and (min-width: 1200px) {
-    .tablette {
+    .desktop {
         display: flex;
+    }
+    .article_news {
+        flex-wrap: nowrap;
+        width: 30%;
     }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.social_links {
+    justify-content: space-around;
+}
 @media screen and (min-width: 500px) {
     
 }
 @media screen and (min-width: 1200px) {
     .desktop {
         display: flex;
+    }
+    .favorite_links {
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
