@@ -96,22 +96,124 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start utility classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.flex {
+    display: flex;
+}
+.margin_2em {
+    margin: 2em;
+}
+.margin_1em {
+    margin: 1em;
+}
+.center {
+    text-align: center;
+}
+.margin_auto {
+    margin: auto;
+}
+.width_80 {
+    width: 80%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End utility classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+}
+footer, header {
+    background-color: rgb(196, 184, 184);
+}
+.tablette {
+    display: none;
+}
+.desktop {
+    display: none;
+}
+.puce {
+    text-decoration: none;
+    color: black;
+}
+.border {
+    border: 1px black solid;
+    padding: 0.5em;
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End commons rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.icon_header {
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (min-width: 500px) {
+    header {
+        width: 100%;
+    }
+    .tablette {
+        display: flex;
+    }
+    .search {
+        align-items: center;
+    }
+    header section {
+        background-image: url("https://cdn3.tissus-price.com/73290-large_default/coton-uni-bleu-ciel.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 30vh;
+    }
+    header section h1 {
+        margin-bottom: 2em;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End header rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.article_news {
+    margin-bottom: 1em;
+}
+.link_article {
+    text-align: end;
+}
+@media screen and (min-width: 500px) {
+    .tabletteOnly {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .article_news {
+        width: 45%;
+        margin-top: 1em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .desktop {
+        display: flex;
+    }
+    .article_news {
+        flex-wrap: nowrap;
+        width: 30%;
+    }
+    #callToAction {
+        justify-content: space-between;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End home rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Start footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.social_links {
+    justify-content: space-around;
+}
+@media screen and (min-width: 1200px) {
+    .desktop {
+        display: flex;
+    }
+    .favorite_links {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End footer rules~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* ==========================================================================
    Helper classes
