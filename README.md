@@ -1,5 +1,6 @@
 # Patisserie
 Un site réalisé pour travailler le responsive design (semaine du 08/10/18 au 12/10/2018)
+L'application est réalisé en HTML/CSS pour un support portable, tablette et pc
 
 Projet à réaliser : La page d'accueil d'un site de patisserie pour un particulier accro à la patisserie
 
