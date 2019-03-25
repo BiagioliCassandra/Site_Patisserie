@@ -4,19 +4,19 @@ Un site réalisé pour travailler le responsive design (semaine du 08/10/18 au 1
 Projet à réaliser : La page d'accueil d'un site de patisserie pour un particulier accro à la patisserie
 
 Spécifications techniques
--Réalisation d’un wireframe 
--Structure du site en HTML5
--Usage d’un BoilerPlate
--HTML sémantique
--Présence de commentaires en anglais pour faciliter la lecture du code
--code validé sur le w3c validator
--Design moderne et élégant avec un CSS maintenable
--Respect du principe DRY
--Développé en mobile first
--Design responsive
--Présence d’un favicon
--Site mis en ligne via une GH-page
--Usage du PHP pour templating
+- Réalisation d’un wireframe 
+- Structure du site en HTML5
+- Usage d’un BoilerPlate
+- HTML sémantique
+- Présence de commentaires en anglais pour faciliter la lecture du code
+- code validé sur le w3c validator
+- Design moderne et élégant avec un CSS maintenable
+- Respect du principe DRY
+- Développé en mobile first
+- Design responsive
+- Présence d’un favicon
+- Site mis en ligne via une GH-page
+- Usage du PHP pour templating
     
 Compétences acquises :
 
